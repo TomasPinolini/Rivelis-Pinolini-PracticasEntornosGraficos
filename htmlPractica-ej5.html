@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Encabezado dividido</title>
+<style>
+  table {
+    border-collapse: collapse;
+    
+  }
+  table, th, td {
+    border: 1px solid black;
+    text-align: center;
+  }
+  td{
+    width: 33%;
+    height: 50px;
+  }
+  /* Estilos para el encabezado */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #FFF;
+    color: black;
+  }
+
+  /* Estilos para el texto */
+  .texto {
+    font-size: 24px;
+  }
+
+  /* Estilos para la imagen */
+  .imagen {
+    max-width: 100px; /* Cambia el tamaño de la imagen según lo necesites */
+    height: auto;
+    margin-right: 200px; /* Margen a la derecha de la imagen */
+  }
+/* fasdfs */
+</style>
+
+</head>
+<body>
+  <table>
+    <tr>
+      <td colspan="2">Encabezado</td>
+      <td><img src="logoUtn.png" alt="Descripción de la imagen">       </td>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+            <li><a href="articulos.html">Artículos</a></li>
+            <li><a href="MasInfo.html">Más Info</a></li>
+          </ul>
+      </td>
+      <td colspan= "2">Principal</td>
+    </tr>
+    <tr>
+      <td colspan="3"> Pie </td>
+    </tr>
+  </table>
+
+</body>
+</html>

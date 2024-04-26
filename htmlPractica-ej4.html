@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header>
+    <a href="https://www.frro.utn.edu.ar/"><img src="logoUTN.png" alt=""></a>
+    <hr style="height:1px; background-color:black;">
+</header>
+<body style="border: 1px solid black; padding: 7px;">
+    <h1>AÑO 2008</h1>
+
+    <table border="1" style="width:500px">
+        <tr>
+          <th colspan="3">Exámenes</th>
+        </tr>
+        <tr style="width:50%">
+          <td rowspan="2">Fecha: <p id="datetime"></p></td>
+          <td style="text-align:right;padding-right:20px">Aprobados</td>
+        </tr>
+        <tr style="width:50%">
+            <td style="width:200px;text-align:right;padding-right:20px">24/30</td>
+        </tr>
+    </table>
+    <br>
+    <ol>
+        <a href="ej4.html"><li>Enunciado del examen</li></a>
+        <a href="resolucion.html"><li>Resolución</li></a>
+      </ol>
+     
+    
+    <br><br>
+    <p>Puede realizar consultas completando el siguiente formulario:</p>
+    <form action="mailto:xx@xx.com" enctype="text/plain" method="post" target="_blank">
+        <table>
+            <tr>
+                <td style="padding-left: 33px;">e-mail:</td>
+                <td><input type="email" name="email" id="email" style="height: 20px;"></td><br>
+            </tr>
+            <tr>
+                <td><label style="padding-left:20px; margin-bottom: 100%;">consulta:</label></td>
+                <td><input type="text" name="consulta" id="consulta" style="height: 100px;"></td><br>
+            </tr>
+        </table>
+        <td><input type="submit" value="ENVIAR" style="height: 30px;width: 80px;margin-left: 92px;"></td>
+        <td><button type="button" onclick="clearInputs()" style="height: 30px;width: 80px;">BORRAR</button></td>
+
+        
+        
+        <script>
+            function clearInputs() {
+                document.getElementById("email").value = "";
+                document.getElementById("consulta").value = "";
+        }
+          var now = new Date();
+          var datetime = now.toLocaleString();
+        
+          // Insert date and time into HTML
+          document.getElementById("datetime").innerHTML = datetime;
+        </script>
+    </form>
+
+    <h3>Enunciado del examen</h3>
+    <p style="">Ejercicio 1:....................................................................</p>
+    <p style="">Ejercicio 2:....................................................................</p>
+
+    <p>Para más información dirigirse a <a href="">contacto@xx.com</a></p>
+
+</body>
+</html>

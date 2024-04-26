@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario HTML</title>
+</head>
+<body>
+    <h2>Formulario Campo Requerido</h2>
+    <form action="/enviar" method="post">
+        <label for="nombre">E-: (obligatorio)</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h2>Formulario E-Mail</h2>
+    <form action="/enviar" method="post">
+        <label for="nombre">E-Mail: (obligatorio)</label><br>
+        <input type="email" id="emailusuario" required>
+        
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h2>Formulario Fecha y hora</h2>
+    <form action="/enviar" method="post">
+        <label for="nombre">Fecha:</label><br>
+        <input type="date"required><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+
+
+    <h2>Formulario Color</h2>
+    <form action="/enviar" method="post">
+        <label for="nombre">Color:<label><br>
+        <input type="color" id="color1" name="color1">
+        <input type="submit" value="Enviar">
+    </form>
+
+
+    <h2>Formulario Number: (max 10; min 1)</h2>
+    <form action="/enviar" method="post">
+        <label for="nombre">Numero:</label><br>
+        <input type="number" id="valor" name="valor" min="1" max="10">
+
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
