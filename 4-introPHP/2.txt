@@ -1,0 +1,9 @@
+
+a. Todos cumplen la misma función de una manera u otra.
+Siendo el primero el más eficiente.
+b. Todos cumplen la misma función de una manera u otra.
+Siendo el '<?php for ($i = 1; $i <= 10; print $i, $i++) ; ?>' 
+el más eficiente, y el de más de la derecha el menos eficiente 
+en cuanto a lineas de código.
+c. Los dos hacen exactamente lo mismo pero con distintas 
+estructuras de control.

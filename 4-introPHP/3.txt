@@ -1,0 +1,8 @@
+
+a. Este documento cra una tabla en html para luego llenarla con 
+una cantidad de lineas definida por variables puntuales.
+
+b. Es un formulario que una vez llenado, se verifica si la edad
+emitida es mayor a 21 y emite un mensaje en consecuencia.
+
+
